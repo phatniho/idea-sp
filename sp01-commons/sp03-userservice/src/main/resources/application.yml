@@ -13,7 +13,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka1:2001/eureka, http://eureka2:2002/eureka
-      #Ä¬ÈÏÎ»ÖÃ£¬¿ÉÒÔĞŞ¸ÄÎª¾ßÌåµØÀíÎ»ÖÃ£¬±ÈÈç£ºbeiJing, shangHai, shenZhen µÈ£¬±íÊ¾ eureka ·şÎñÆ÷µÄ²¿ÊğÎ»ÖÃ
-    registry-fetch-interval-seconds: 30 #À­È¡×¢²áĞÅÏ¢¼ä¸ôÊ±¼ä£¬Ä¬ÈÏ 30 Ãë
-  instance:
-    lease-renewal-interval-in-seconds: 30 #ĞÄÌø¼ä¸ôÊ±¼ä£¬Ä¬ÈÏ 30 Ãë
+      # é»˜è®¤ä½ç½®ï¼Œå¯ä»¥ä¿®æ”¹ä¸ºå…·ä½“åœ°ç†ä½ç½®ï¼Œæ¯”å¦‚ï¼šbeiJing, shangHai, shenZhen ç­‰ï¼Œè¡¨ç¤º eureka æœåŠ¡å™¨çš„éƒ¨ç½²ä½ç½®
+#    registry-fetch-interval-seconds: 60 # æ‹‰å–æ³¨å†Œä¿¡æ¯é—´éš”æ—¶é—´ï¼Œé»˜è®¤ 30 ç§’
+#  instance:
+#    lease-renewal-interval-in-seconds: 60 #å¿ƒè·³é—´éš”æ—¶é—´ï¼Œé»˜è®¤ 30 ç§’

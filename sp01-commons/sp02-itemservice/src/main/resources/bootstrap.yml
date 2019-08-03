@@ -1,4 +1,4 @@
-spring: 
+spring:
   cloud:
     config:
       discovery:
@@ -6,7 +6,7 @@ spring:
         service-id: config-server
       name: item-service
       profile: dev
-      
+
 eureka:
   client:
     service-url:
