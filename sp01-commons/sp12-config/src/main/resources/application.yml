@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/phatniho/idea-config
-          #searchPaths: config-project
+          searchPaths: config
           #username: your-username
           #password: your-password
 
