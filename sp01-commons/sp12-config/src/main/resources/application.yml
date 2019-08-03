@@ -7,7 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/phatniho/sp-config
-          searchPaths: /sp01-commons/config
+          searchPaths: config
           #username: your-username
           #password: your-password
 
